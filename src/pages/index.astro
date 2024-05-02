@@ -20,33 +20,31 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
-
+ <!-- tabler:download on icon in contactanos --> 
   <Hero
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
+        text: 'Contactanos',
         href: 'https://github.com/onwidget/astrowind',
         target: '_blank',
-        icon: 'tabler:download',
+        icon: '',
+       
       },
-      { text: 'Learn more', href: '#features' },
+      { text: 'Sobre nosotros', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+    image={{ src: '~/assets/images/areasdepractica.jpg', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS
+      Asesoria legal <span class="hidden xl:inline"></span>
+      <span class="text-accent dark:text-white highlight">especializada</span>
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
-        + Tailwind CSS.</span
+        <span class="font-semibold">en Fernandez Centella & Asociados</span> , nuestro compromiso es más que una firma, es una promesa de excelencia legal. Confía en nosotros para guiar cada paso de tu camino legal con integridad, experiencia y dedicación inquebrantable."</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
+      
     </Fragment>
   </Hero>
 
@@ -58,70 +56,69 @@ const metadata = {
 
   <Features
     id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    tagline="Especialidades"
+    title="Conoce nuestras áreas de práctica"
+    subtitle="Nuestro equipo de abogados especializados en diversas áreas del derecho, se encargará de brindarte la mejor asesoría legal para tu caso."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
-        description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
-      },
-      {
-        title: 'Ready-to-use Components',
-        description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'Best Practices',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
-      },
-      {
-        title: 'Excellent Page Speed',
-        description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
-      },
-    ]}
-  />
+title: 'Integración LegalTech + Metodología Ágil',
+description:
+'Una fusión perfecta entre las soluciones LegalTech y las metodologías ágiles que ofrece alta eficiencia, adaptabilidad y cumplimiento.',
+icon: 'tabler:brand-tailwind',
+},
+{
+title: 'Herramientas de Revisión de Contratos',
+description:
+'Componentes de software diseñados para agilizar la revisión de contratos legales, garantizando precisión, consistencia y cumplimiento normativo.',
+icon: 'tabler:components',
+},
+{
+title: 'Ética Profesional en Derecho Corporativo',
+description:
+'Adherencia a los más altos estándares éticos en el ámbito del derecho corporativo para garantizar la integridad, transparencia y confianza en las transacciones comerciales.',
+icon: 'tabler:list-check',
+},
+{
+title: 'Gestión Eficiente de Propiedad Intelectual',
+description:
+'Sistemas de gestión de propiedad intelectual eficientes que protegen los derechos de propiedad intelectual de manera proactiva y aseguran la conformidad con las leyes de propiedad intelectual.',
+icon: 'tabler:rocket',
+},
+{
+title: 'Optimización de Contenido Jurídico',
+description:
+"Optimización del contenido jurídico para motores de búsqueda para aumentar la visibilidad, mejorar el posicionamiento y atraer a una audiencia más amplia interesada en temas legales específicos.",
+icon: 'tabler:arrows-right-left',
+},
+{
+title: 'Innovación en Derecho Ambiental',
+description:
+'Fomento de la innovación y la adopción de enfoques sostenibles en el ámbito del derecho ambiental para abordar los desafíos actuales de conservación y protección del medio ambiente.',
+icon: 'tabler:bulb',
+},
+]}/>
 
   <!-- Content Widget **************** -->
 
   <Content
     isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
+    tagline="clientes satisfechos"
+    title="Casos de <span class='text-accent dark:text-white'>éxito</span>"
     items={[
       {
-        title: 'Built on top of Astro 4.0',
+        title: 'testimonio de cliente #1',
         description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
+          'Fernandez CentelLa & Asociados ha sido un aliado estratégico en el crecimiento de nuestro negocio. Su asesoría legal especializada y su compromiso con la excelencia han sido fundamentales para nuestro éxito.',
       },
       {
-        title: 'Styled using Tailwind CSS',
+        title: 'testimonio de cliente #2',
         description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
+          'La asesoría legal de Fernandez Centela & Asociados ha sido un pilar fundamental en la protección de nuestros derechos y la resolución de conflictos legales. Su enfoque proactivo y su dedicación han marcado la diferencia en nuestro caso.',
       },
       {
-        title: 'Cross-browser compatibility',
+        title: 'testimonio de cliente #3',
         description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
+          'Fernandez Centela & Asociados ha demostrado un compromiso excepcional con la excelencia y la integridad en cada caso que han manejado para nosotros. Su enfoque personalizado y su atención al detalle han sido invaluables para nuestro negocio.',
       },
     ]}
     image={{
@@ -130,8 +127,8 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-      Gain a competitive advantage by incorporating industry leading practices
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Testimonios de clientes que han confiado en nosotros</h3>
+      "Nuestro compromiso es más que una firma, es una promesa de excelencia legal. Confía en nosotros para guiar cada paso de tu camino legal con integridad, experiencia y dedicación inquebrantable."
     </Fragment>
 
     <Fragment slot="bg">
@@ -145,23 +142,23 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'High level of customization',
-        description: `Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time.`,
+        title: 'Empresa #1',
+        description: `Fernandez Centella & Asociados ha sido un aliado estratégico en el crecimiento de nuestro negocio. Su asesoría legal especializada y su compromiso con la excelencia han sido fundamentales para nuestro éxito.`,
       },
       {
-        title: 'Multiple layout possibilities',
+        title: 'Empresa #2',
         description:
-          'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
+          'La asesoría legal de Fernandez Centella & Asociados ha sido un pilar fundamental en la protección de nuestros derechos y la resolución de conflictos legales. Su enfoque proactivo y su dedicación han marcado la diferencia en nuestro caso.',
       },
       {
-        title: 'Fully responsive design',
+        title: 'Empresa #3',
         description:
-          "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience.",
+          "La asesoría legal de Fernandez Centella & Asociados ha sido un pilar fundamental en la protección de nuestros derechos y la resolución de conflictos legales. Su enfoque proactivo y su dedicación han marcado la diferencia en nuestro caso.",
       },
       {
-        title: 'Integration of media',
+        title: 'Empresa #4',
         description:
-          'Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively.',
+          'Fernandez Centella & Asociados ha demostrado un compromiso excepcional con la excelencia y la integridad en cada caso que han manejado para nosotros. Su enfoque personalizado y su atención al detalle han sido invaluables para nuestro negocio.',
       },
     ]}
     image={{
@@ -169,7 +166,9 @@ const metadata = {
       alt: 'Blueprint Image',
     }}
   >
-    <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Empresas que confian en nosotros</h3>
+    </Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -380,8 +379,8 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
+        text: 'Contactanos',
+        href: './contacto.html',
         target: '_blank',
         icon: 'tabler:download',
       },
