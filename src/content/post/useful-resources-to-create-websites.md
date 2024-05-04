@@ -1,8 +1,8 @@
 ---
 publishDate: 2023-08-09T00:00:00Z
-title: Useful tools and resources to create a professional website
-excerpt: Explore vital tools and resources for a sleek website. From design to functionality, our guide elevates your online presence.
-image: https://images.unsplash.com/photo-1637144113536-9c6e917be447?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80
+title: 'Planificación patrimonial: asegura el futuro de tu familia con la ayuda de un abogado'
+excerpt: Ampara a tus familiares y sere queridos.
+image: https://media.istockphoto.com/id/852477980/es/foto/hombre-que-sostiene-un-documento-legal-en-mano-abogado-con-papel-de-ley-en-la-oficina-s%C3%ADmbolo.jpg?s=612x612&w=0&k=20&c=TWsEAadcN5CEtbKKQhF3J1WJ-WkfrHPhV0C2MmE-iaQ=
 tags:
   - front-end
   - tools
