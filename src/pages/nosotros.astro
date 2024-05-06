@@ -1,0 +1,45 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+---
+
+<Layout>
+    
+    <Testimonials 
+    title="Nosotros"
+    subtitle="Nuestro equipo de profesionales"
+    tagline=""
+    testimonials={[
+      {
+        title: 'Great Service',
+        testimonial: 'They provided an excellent service.',
+        name: 'John Doe',
+        job: 'CEO, Company',
+        
+      },
+      // ...more testimonials
+      {
+        title: 'Great Service',
+        testimonial: 'They provided an excellent service.',
+        name: 'John Doe',
+        job: 'CEO, Company',
+        
+      },
+      {
+        title: 'Great Service',
+        testimonial: 'They provided an excellent service.',
+        name: 'John Doe',
+        job: 'CEO, Company',
+        
+      },
+    ]}
+    callToAction={{
+      text: 'Join Us',
+      href: '/join'
+    }}
+    id="testimonials"
+    isDark={false}
+    classes={{ container: 'my-container-class' }}
+  />
+    
+</Layout>
