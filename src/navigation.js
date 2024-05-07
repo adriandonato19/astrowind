@@ -61,7 +61,7 @@ export const footerData = {
 
       title: 'Direccion',
       links: [
-        { text: 'Calle 50, Edificio Global Bank, Piso 25, Oficina 2501', href: '#' },
+        { text: 'Bella Vista, Calle 47 Este', href: '#' },
         { text: 'Ciudad de Panama, Panama', href: '#' },
       ],
     }
