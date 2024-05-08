@@ -5,33 +5,33 @@ import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
-  title: 'Contact',
+  title: 'Contactanos',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText tagline="Contact" title="Let's Connect!" />
+  <HeroText tagline="Contactanos" title="Envianos tu consulta!" />
 
   <ContactUs
     id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
+    title="Contactanos hoy y te responderemos enseguida!"
+    subtitle="Te brindaremos asesoria especializada"
     inputs={[
       {
         type: 'text',
         name: 'name',
-        label: 'Name',
+        label: 'Nombre',
       },
       {
         type: 'email',
         name: 'email',
-        label: 'Email',
+        label: 'Correo electronico',
       },
     ]}
     textarea={{
-      label: 'Message',
+      label: 'Escribe tu mensaje',
     }}
     disclaimer={{
       label:
@@ -43,35 +43,21 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="We are here to help!"
+    title="Estamos aqui para ayudarte!"
     items={[
       {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
-      },
-      {
-        title: 'Contact sales',
-        description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
-      },
-      {
-        title: 'Technical support',
-        description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
-      },
-      {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
+        title: 'Telefono',
+        description: '2910382109321',
         icon: 'tabler:headset',
       },
       {
-        title: 'Email',
-        description: 'contact@support.com',
+        title: 'Correo electronico',
+        description: 'contact@contactanos.com',
         icon: 'tabler:mail',
       },
       {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
+        title: 'Ubicacion',
+        description: 'Calle falsa 123, Buenos Aires, Argentina',
         icon: 'tabler:map-pin',
       },
     ]}

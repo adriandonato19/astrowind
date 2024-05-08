@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
+import { getImage } from 'astro:assets';
 ---
 
 <Layout>
@@ -11,15 +12,18 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
     tagline=""
     testimonials={[
       {
-        title: 'Great Service',
+        title: 'Abogado', 
+        image:'<image src="https://i.imgur.com/buyv8Nj.png"/>' ,
         testimonial: 'They provided an excellent service.',
         name: 'John Doe',
         job: 'CEO, Company',
+       
         
       },
       // ...more testimonials
       {
         title: 'Great Service',
+        image:'<image src="https://i.imgur.com/buyv8Nj.png"/>' ,
         testimonial: 'They provided an excellent service.',
         name: 'John Doe',
         job: 'CEO, Company',
@@ -27,6 +31,7 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
       },
       {
         title: 'Great Service',
+        image:'<image src="https://i.imgur.com/buyv8Nj.png"/>' ,
         testimonial: 'They provided an excellent service.',
         name: 'John Doe',
         job: 'CEO, Company',
@@ -34,7 +39,7 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
       },
     ]}
     callToAction={{
-      text: 'Join Us',
+      text: 'Contactanos',
       href: '/join'
     }}
     id="testimonials"
