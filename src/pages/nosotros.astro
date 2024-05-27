@@ -1,50 +1,11 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
+import Cards from '~/components/ui/cards.astro'; // Assuming this is a single card component
 import { getImage } from 'astro:assets';
 ---
 
 <Layout>
-    
-    <Testimonials 
-    title="Nosotros"
-    subtitle="Nuestro equipo de profesionales"
-    tagline=""
-    testimonials={[
-      {
-        title: 'Abogado', 
-        image:'<image src="https://i.imgur.com/buyv8Nj.png"/>' ,
-        testimonial: 'They provided an excellent service.',
-        name: 'John Doe',
-        job: 'CEO, Company',
-       
-        
-      },
-      // ...more testimonials
-      {
-        title: 'Great Service',
-        image:'<image src="https://i.imgur.com/buyv8Nj.png"/>' ,
-        testimonial: 'They provided an excellent service.',
-        name: 'John Doe',
-        job: 'CEO, Company',
-        
-      },
-      {
-        title: 'Great Service',
-        image:'<image src="https://i.imgur.com/buyv8Nj.png"/>' ,
-        testimonial: 'They provided an excellent service.',
-        name: 'John Doe',
-        job: 'CEO, Company',
-        
-      },
-    ]}
-    callToAction={{
-      text: 'Contactanos',
-      href: '/join'
-    }}
-    id="testimonials"
-    isDark={false}
-    classes={{ container: 'my-container-class' }}
-  />
-    
+  <Cards/>
+
+  
 </Layout>
