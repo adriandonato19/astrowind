@@ -12,6 +12,7 @@ export const headerData = {
     },
     {
       text: 'Practicas',
+      href: getPermalink('/practicas'),
       
     },
     {
@@ -20,7 +21,7 @@ export const headerData = {
     },
     {
       text: 'Contactanos',
-      href: '#',
+      href: '/contact',
     },
   ],
   actions: [{ text: 'Escribenos', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
