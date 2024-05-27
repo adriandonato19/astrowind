@@ -51,8 +51,7 @@ export const footerData = {
     {
       title: 'Contactanos',
       links: [
-        { text: '+5076070-2162', href: '#' },
-        { text: '+5076249-5039', href: '#' },
+        { text: ' 374-5019', href: '#' },
         { text: 'efernadez@fercenabogados.com', href: '#' },
         { text: 'dcentella@fercenabogados.com', href: '#' },
         { text: 'asistente@fercenabogados.com', href: '#' },
