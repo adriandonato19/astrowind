@@ -1,7 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import ContactUs from '~/components/widgets/Contact.astro';
+import Contactanos from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
@@ -14,7 +14,7 @@ const metadata = {
 
   <HeroText tagline="Contactanos" title="Envianos tu consulta!" />
 
-  <ContactUs
+  <Contactanos
     id="form"
     title="Contactanos hoy y te responderemos enseguida!"
     subtitle="Te brindaremos asesoria especializada"
@@ -35,31 +35,12 @@ const metadata = {
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        'Aseguro que los datos ingresados son correctos y he suministrado la información proporcionada en este formulario',
     }}
-    description="Our support team typically responds within 24 business hours."
+    description="Envianos un mensaje y te contactaremos en breve"
   />
 
   <!-- Features2 Widget ************** -->
 
-  <Features2
-    title="Estamos aqui para ayudarte!"
-    items={[
-      {
-        title: 'Telefono',
-        description: '2910382109321',
-        icon: 'tabler:headset',
-      },
-      {
-        title: 'Correo electronico',
-        description: 'contact@contactanos.com',
-        icon: 'tabler:mail',
-      },
-      {
-        title: 'Ubicacion',
-        description: 'Calle falsa 123, Buenos Aires, Argentina',
-        icon: 'tabler:map-pin',
-      },
-    ]}
-  />
+  
 </Layout>
