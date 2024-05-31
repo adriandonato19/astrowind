@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Contactanos from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import ContactBanner from '~/components/contactBanner.astro';
 
 const metadata = {
   title: 'Contactanos',
@@ -13,6 +14,8 @@ const metadata = {
   <!-- HeroText Widget ******************* -->
 
   <HeroText title="Contactanos" />
+
+  <ContactBanner/>
 
   <Contactanos
     id="form"
