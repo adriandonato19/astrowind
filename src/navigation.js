@@ -79,7 +79,25 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: '#' },
   ],
   footNote: `
-    <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="/src/assets/images/icono.jpg" alt="onWidget logo" loading="lazy"></img>
+  <!--
+  This image element (<img>) is styled with various utility classes for size, positioning, and appearance.
+  - class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm":
+    - w-5 h-5: Sets the width and height to 1.25rem (20px) each.
+    - md:w-6 md:h-6: Sets the width and height to 1.5rem (24px) each on medium screens and larger.
+    - md:-mt-0.5: Applies a negative top margin of 0.125rem (-2px) on medium screens and larger.
+    - bg-cover: Ensures the background image covers the entire element.
+    - mr-1.5: Adds a right margin of 0.375rem (6px).
+    - rtl:mr-0 rtl:ml-1.5: Adjusts margins for right-to-left (RTL) text direction. Sets the right margin to 0 and the left margin to 0.375rem (6px).
+    - float-left: Floats the image to the left.
+    - rtl:float-right: Floats the image to the right for RTL text direction.
+    - rounded-sm: Applies a small border radius for rounded corners.
+  - src="/src/assets/images/icono.jpg": Specifies the path to the image file.
+  - alt="onWidget logo": Provides alternative text for the image, useful for accessibility.
+  - loading="lazy": Defers loading of the image until it is near the viewport, improving page load performance.
+  <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="/src/assets/images/icono.jpg" alt="onWidget logo" loading="lazy">
+  -->
+
+
     <a class="text-blue-600 underline dark:text-muted" href="https://onwidget.com/"> Fernandez & Centella</a> · Todos los derechos reservados.
   `,
 };
