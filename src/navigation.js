@@ -24,7 +24,7 @@ export const headerData = {
       href: '/contact',
     },
   ],
-  actions: [{ text: 'Escribenos', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Escribenos', href: 'asistente@fercenabogados.com', target: '_blank' }],
 };
 
 export const footerData = {
