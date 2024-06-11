@@ -1,8 +1,8 @@
 ---
 publishDate: 2023-08-06T00:00:00Z
-title: How to customize AstroWind template to suit your branding
-excerpt: Personalize AstroWind template for your brand. Our guide unlocks seamless customization steps for a unique online presence.
-image: https://images.unsplash.com/photo-1546984575-757f4f7c13cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+title: 'Entendiendo tus derechos legales: guía básica para enfrentar situaciones legales'
+excerpt: Guia legal escencial
+image: https://media.istockphoto.com/id/1462211420/es/foto/reuni%C3%B3n-de-la-sala-de-juntas-de-negocios.webp?b=1&s=170667a&w=0&k=20&c=VOZ3I1GdGUTYP4VGzp7R7oPPAK-tc1HuG6swWgKbqyw=
 tags:
   - astro
   - tailwind css

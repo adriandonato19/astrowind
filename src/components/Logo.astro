@@ -1,11 +1,11 @@
 ---
-import { SITE } from 'astrowind:config';
-import img1 from 'src/assets/images/fercenalogo.png'
+// Import the images
+import Image from 'astro/components/Image.astro';
+import imgLight from 'src/assets/images/fercenalogo.png';
+import imgDark from 'src/assets/images/FCA.png';
 ---
 
-
-
-<span
-  class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white ">
-  <image class="h-25 w-60" src='/src/assets/images/fercenalogo.png' />
+<span class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap absolute">
+  <Image class="h-25 w-60 dark:hidden" src={imgLight} alt="Light mode logo" />
+  <Image class="h-25 w-60 hidden dark:block" src={imgDark} alt="Dark mode logo" />
 </span>
