@@ -50,14 +50,15 @@ export const footerData = {
       links: [
         { text: 'Instagram', href: '#' },
         { text: 'Facebook', href: '#' },
-        { text: 'Whatsapp', href: '#' },
+        { text: 'Whatsapp', href: '+507 6637-4357' },
         { text: 'X', href: '#' },
       ],
     },
     {
       title: 'Contactanos',
       links: [
-        { text: ' 374-5019', href: '#' },
+        { text: '+507 374-5019', href: '#' },
+        { text: '+507 6637-4357', href: '#' },
         { text: 'efernadez@fercenabogados.com', href: '#' },
         { text: 'dcentella@fercenabogados.com', href: '#' },
         { text: 'asistente@fercenabogados.com', href: '#' },
