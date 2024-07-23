@@ -1,5 +1,11 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import Contactanos from '~/components/widgets/Contact.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import ContactBanner from '~/components/contactBanner.astro';
+
 
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
@@ -43,7 +49,7 @@ const metadata = {
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">en Fernandez Centella & Asociados</span> , nuestro compromiso es más que una firma, es una promesa de excelencia legal. Confía en nosotros para guiar cada paso de tu camino legal con integridad, experiencia y dedicación inquebrantable."</span
+        <span class="font-semibold">En Fernández,Centella & Asociados(FERCEN),</span> nuestro compromiso es más que una firma, es una promesa de excelencia legal. Confía en nosotros para guiar cada paso de tu camino legal con integridad, experiencia y dedicación inquebrantable."</span
       >
       
     </Fragment>
@@ -200,6 +206,36 @@ const metadata = {
                 te proporcionamos información valiosa para ayudarte a navegar el complejo mundo legal con confianza. 
                 Gracias por visitarnos.
                `}
+/>
+
+<HeroText title="Contactanos" />
+
+<ContactBanner/>
+
+<Contactanos
+  id="form"
+  title="Contactanos hoy y te responderemos enseguida!"
+  subtitle="Te brindaremos asesoria especializada"
+  inputs={[
+    {
+      type: 'text',
+      name: 'name',
+      label: 'Nombre',
+    },
+    {
+      type: 'email',
+      name: 'email',
+      label: 'Correo electronico',
+    },
+  ]}
+  textarea={{
+    label: 'Escribe tu mensaje',
+  }}
+  disclaimer={{
+    label:
+      'Aseguro que los datos ingresados son correctos y he suministrado la información proporcionada en este formulario',
+  }}
+  description="Envianos un mensaje y te contactaremos en breve"
 />
 
 

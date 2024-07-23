@@ -24,6 +24,10 @@ export const headerData = {
       text: 'Contactanos',
       href: '/contact',
     },
+
+    { text:'Reseñas',
+      href:'reseñas' ,
+    }
   ],
   actions: [{ text: 'Escribenos', href: 'asistente@fercenabogados.com', target: '_blank' }],
 };
@@ -38,6 +42,7 @@ export const footerData = {
         { text: 'Areas de practica', href: '#' },
         { text: 'Blog', href: '#' },
         { text: 'Contactanos', href: '#' },
+        { text:'Abogados y reseñas', href:'#' }
       ],
     },
     {
