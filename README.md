@@ -1,6 +1,6 @@
 # 🚀 AstroWind
 
-<img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
+<img src="/images/fercenalogo.png" align="right"
      alt="AstroWind Lighthouse Score" width="100" height="358">
 
 🌟 _Most *starred* & *forked* Astro theme in 2022 & 2023_. 🌟
@@ -17,7 +17,7 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/screenshot-astrowind-1.png" alt="AstroWind Theme Screenshot">
+<img src="/images/fercenalogo.png" alt="FERCEN Theme Screenshot">
 
 [![onWidget](https://custom-icon-badges.demolab.com/badge/made%20by%20-onWidget-556bf2?style=flat-square&logo=onwidget&logoColor=white&labelColor=101827)](https://onwidget.com)
 [![License](https://img.shields.io/github/license/onwidget/astrowind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/astrowind/blob/main/LICENSE.md)
