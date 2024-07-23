@@ -29,7 +29,7 @@ export const headerData = {
       href:'reseñas' ,
     }
   ],
-  actions: [{ text: 'Escribenos', href: 'asistente@fercenabogados.com', target: '_blank' }],
+  actions: [{ text: 'Escribenos', href: '/contact', target: '_blank' }],
 };
 
 export const footerData = {
