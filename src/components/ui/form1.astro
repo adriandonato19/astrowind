@@ -3,10 +3,7 @@ import type { Form as Props } from '~/types';
 import Button from '~/components/ui/Button.astro';
 const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } = Astro.props;
 ---
-<form action="https://api.web3forms.com/submit" method="POST">
-  <!-- Clave de acceso de Web3Forms -->
-  <input type="hidden" name="access_key" value="a9b56ab9-d20e-4602-a8e4-6ea1e1a048fb">
-
+<form action="https://formspree.io/f/tu_id_de_formspree" method="POST">
   {
     inputs &&
       inputs.map(
@@ -25,7 +22,6 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
                 autocomplete={autocomplete}
                 placeholder={placeholder}
                 class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
-                required
               />
             </div>
           )
@@ -43,7 +39,6 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
           rows={textarea.rows ? textarea.rows : 4}
           placeholder={textarea.placeholder}
           class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
-          required
         />
       </div>
     )
@@ -57,7 +52,6 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
             name="disclaimer"
             type="checkbox"
             class="cursor-pointer mt-1 py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
-            required
           />
         </div>
         <div class="ml-3">
@@ -68,9 +62,6 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
       </div>
     )
   }
-  <!-- Campo honeypot para prevenir spam -->
-  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-
   {
     button && (
       <div class="mt-10 grid">
@@ -88,27 +79,3 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
     )
   }
 </form>
-
-<script>
-  const form = document.querySelector('form');
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const formData = new FormData(form);
-    try {
-      const response = await fetch(form.action, {
-        method: 'POST',
-        body: formData
-      });
-      const data = await response.json();
-      if (data.success) {
-        alert('Formulario enviado con éxito');
-        form.reset();
-      } else {
-        alert('Error al enviar el formulario');
-      }
-    } catch (error) {
-      console.error('Error:', error);
-      alert('Error al enviar el formulario');
-    }
-  });
-</script>
