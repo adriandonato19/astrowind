@@ -22,11 +22,11 @@ export const headerData = {
     },
     {
       text: 'Contactanos',
-      href: '/contact',
+      href: getPermalink('/contact'),
     },
 
     { text:'Reseñas',
-      href:'/reseñas',
+      href: getPermalink('/reseñas'),
     }
   ],
   actions: [{ text: 'Escribenos', href: '/contact', target: '_blank' }],
