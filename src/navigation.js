@@ -37,12 +37,12 @@ export const footerData = {
     {
       title: 'Menu',
       links: [
-        { text: 'Inicio', href: '#' },
-        { text: 'Nosotros', href: '#' },
-        { text: 'Areas de practica', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Contactanos', href: '#' },
-        { text:'Abogados y reseñas', href:'#' }
+        { text: 'Inicio', href: '/' },
+        { text: 'Nosotros', href: 'nosotros' },
+        { text: 'Areas de practica', href: 'Areas' },
+        { text: 'Blog', href: 'Blog' },
+        { text: 'Contactanos', href: 'contact' },
+        { text:'Abogados y reseñas', href:'reseñas' }
       ],
     },
     {
