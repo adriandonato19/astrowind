@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: FERCEN
-    template: '%s — AstroWind'
+    template: 'FERCEN'
   description: "más que una firma, es una promesa de excelencia legal."
   robots:
     index: true
