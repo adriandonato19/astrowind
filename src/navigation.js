@@ -26,7 +26,7 @@ export const headerData = {
     },
 
     { text:'Reseñas',
-      href:'reseñas' ,
+      href:'/reseñas' ,
     }
   ],
   actions: [{ text: 'Escribenos', href: '/contact', target: '_blank' }],
