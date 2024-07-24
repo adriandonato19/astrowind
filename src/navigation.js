@@ -27,7 +27,7 @@ export const headerData = {
 
     { text:'Resenas',
       href: getPermalink('/resenas'),
-    }
+    };
   ],
   actions: [{ text: 'Escribenos', href: '/contact', target: '_blank' }],
 };
