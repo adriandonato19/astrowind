@@ -25,9 +25,9 @@ export const headerData = {
       href: getPermalink('/contact'),
     },
 
-    { text:'Resenas',
+    { text:'Reseñas',
       href: getPermalink('/resenas'),
-    };
+    }
   ],
   actions: [{ text: 'Escribenos', href: '/contact', target: '_blank' }],
 };
